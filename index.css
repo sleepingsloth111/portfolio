@@ -1,0 +1,99 @@
+#items {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex
+}
+
+#proj {
+    font-family: 'Merriweather';
+    text-align: center;
+    color: #5C4033;
+    font-size: 50px;
+}
+
+.card {
+    margin: 10px;
+    width: 500px;
+    height: 480px;
+    background-color: #e4d5b7;
+}
+
+#card-img {
+    width: 500px;
+    height: 300px;
+}
+
+#a {
+    width: 90rem;
+    color: #5C4033;
+}
+#b {
+    width: 85rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#c {
+    width: 80rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#d {
+    width: 75rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#e {
+    width: 70rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#f {
+    width: 65rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#g {
+    width: 60rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#h {
+    width: 55rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#i {
+    width: 50rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#j {
+    width: 45rem;
+    color: #5C4033;
+    padding: 3px;
+}
+#k {
+    width: 40rem;
+    color: #5C4033;
+    padding: 3px;
+}
+
+#but {
+    left: 50%;
+    text-align: center;
+}
+
+
+#welcome {
+    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 50px;
+    color: #5C4033;
+}
+
+#texts {
+    font-family: "Merriweather"
+}
