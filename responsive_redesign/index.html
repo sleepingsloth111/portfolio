@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Responsive Redesign</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body style="background-color:#FFFAF1">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d9b99b">
+            <div class="container-fluid">
+                <a style="color:white; font-size: 200% ; font-family: 'Merriweather" class="navbar-brand"
+                    href="index.html">
+                    sleepy·sloth·111
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" -controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link" href="../index.html">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="container">
+        <div class="row">
+
+            <h1 class="display-4" id="main-header">
+                Project: Responsive Redesign
+            </h1>
+
+            <hr>
+
+            <h1 class="display-5">
+                Introduction
+            </h1>
+            <p id="intro-text">
+                Looking for a website to redesign, I thought about my family's favorite Vietnamese restaurant in my hometown, Pho Empire.
+                I looked up the site and noticed some issues on their menu page. From there, I took note of key problems, 
+                designed low-fidelity wireframes, made high-fidelity prototypes, and implemented the redesigned website.  
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="part1" style="padding-top:2%">
+            <h1 style="padding-bottom: 2%"> Part 1: Addressing Key Issues</h1>
+            <p id="intro-text">
+                I analyzed the
+                    <a target="_blank" href="http://www.phoempire.com/menu.html">webpage</a>
+                and took note of the key problems in the design. I chose to redesign this page because of the large amount of disorder
+                in the alignment of elements and the lack of focus on the menu category images. 
+            </p>
+        </div>
+
+        <div class="container">
+            <img class="mx-auto d-block" src="index-images/original-website.png" alt="image of pho empire menu webpage">
+        </div>
+
+        <h3 style="padding-top: 5%">Picking a Webpage</h3>
+        <p id="intro-text"> Using usability, learnability, efficiency, and memorability as my criterias, I listed the parts of the page that failed to fulfill them.</p>
+        <ul>
+            <li>Hard to efficiently and easily identify elements with the distracting and detailed background image.</li>
+            <li>Difficult to efficiently identify elements visually with transparent boxes as element backgrounds.</li>
+            <li>Unable to quickly click on menu category item as text goes over transparent box backgrounds.</li>
+            <li>Bottom bar is not webresponsive and shifts locations for screens smaller than desktop.</li>
+            <li>Lack of hierarchy from menu title and descriptions being on the left side disrupting memorability and efficiency in reading.</li>
+            <li>Disorder from varying alignment and sizes for menu category elements which causes delay in usability and efficiency.</li>
+            <li>Difficult to memorize menu category layout as borderless image is laid on background image.</li>
+            <li>The entire page fits for any screen size so mobile users will have a hard time clicking tiny buttons and viewing images</li>
+        </ul>
+
+        <h3 style="padding-top: 5%">Accessibility</h3>
+        <p id="intro-text">
+            The Web Accessibility Evaluation Tool (WAVE) report mainly stated of missing alt text for buttons and images, which I think is unaccessible. If a user's vision 
+            is impaired, they should be able to accurately hear the screenreader state the alt tag of the image for each menu section. 
+            Additionally, the button and text of “Online Order” had low contrast which I was surprised about 
+            since it seems quite distinct to my eyes.
+        </p>
+
+        <hr>
+
+        <div id="part2" style="padding-top:2%">
+            <h1 style="padding-bottom: 2%"> Part 2: Visual Redesign</h1>
+            <p id="intro-text">
+                Though eager to start working on a redesigned site, I knew there were many steps before jumping onto VS Code.
+                Addressing the problems from Part 1, I designed low-fidelity wireframes, a visual design style guide, and high-fidelity prototypes.
+            </p>
+        </div>
+
+        <h3 style="padding-top: 5%">Low Fidelity Wireframing</h3>
+        <p id="intro-text">
+            After thinking of designs, I looked at
+            <a target="_blank" href="https://www.chilis.com/menu">Chile's</a> and 
+            <a target="_blank" href="https://www.olivegarden.com/menu/family-style-meals/family-bundles">Olive Garden's</a>
+             menu page to see how large businesses design responsive webpages
+            for inspiration. Then, using Balsamiq, I created wireframes for 3 sizes: monitor, tablet, and mobile. I also decided to annotate
+            the wireframes for how each component resolves the issues I found.
+        </p>
+
+        <div id="carouselExampleIndicators" class="carousel slide border" data-bs-ride="true">
+            <div style="background-color:#85634D" class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="index-images/lofi-monitor.png" class="mx-auto d-block w-75" alt="wireframe of redesigned website for desktop">
+              </div>
+              <div class="carousel-item">
+                <img src="index-images/lofi-tablet.png" class="mx-auto d-block w-75" alt="wireframe of redesigned website for tablet">
+              </div>
+              <div class="carousel-item">
+                <img src="index-images/lofi-mobile.png" class="mx-auto d-block w-75" alt="wireframe of redesigned website for mobile">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <h3 style="padding-top: 5%">Visual Design Style Guide</h3>
+        <p id="intro-text">
+            Before moving onto making my high-fidelity prototypes, I made a design style guide as part of the process. I decided to
+            retain the color scheme of the original website and also followed the design of Bootstrap components. 
+        </p>
+
+        <div class="container">
+            <img class="mx-auto d-block w-75 border" src="index-images/design-guide.png" alt="image of design guide for redesigned website">
+        </div>
+
+        <h3 style="padding-top: 2%">High Fidelity Prototyping</h3>
+        <p id="intro-text">
+            Feeling confident with my design style guide, I moved forward with creating high-fidelity prototypes on Figma. I decided 
+            to also annotate the prototype for key elements with their class and css style. In my annotations, I often
+            focused on how this relates to making the page responsive. 
+        </p>
+
+        <div id="carouselIndicators" class="carousel slide border" data-bs-ride="true">
+            <div style="background-color:#85634D" class="carousel-inner">
+              <div class="carousel-item active">
+                <img style="width:88%" src="index-images/hifi-monitor.png" class="mx-auto d-block" alt="wireframe of redesigned website for desktop">
+              </div>
+              <div class="carousel-item">
+                <img  style="width:90%" src="index-images/hifi-tablet.png" class="mx-auto d-block" alt="wireframe of redesigned website for tablet">
+              </div>
+              <div class="carousel-item">
+                <img style="width:90%" src="index-images/hifi-mobile.png" class="mx-auto d-block" alt="wireframe of redesigned website for mobile">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <hr>
+
+          <div id="part3" style="padding-top:2%">
+            <h1 style="padding-bottom: 2%"> Part 3: Implementation!</h1>
+            <p id="intro-text">
+                Finally ready for the implementation, I used my style guide and high-fidelity prototype to assist me in coding
+                the html file for the redesigned page. Please check it out below!
+            </p>
+
+            <a target="_blank" id="btn-btn" class="btn border" role="button" href="pho_empire.html">New Menu Page!</a>
+        </div>
+
+        <hr>
+
+        <h1 class="display-5">
+            Reflection
+        </h1>
+        <p id="intro-text">
+            I was really surprised how detailed the process of redesigning a website was. I felt with a newfound appreciation for
+            when companies update their UI. Thank you for letting me share my experience with you!
+        </p>
+
+        <p id="intro-text">
+            P.S. Shout out to 
+            <a target="_blank" href="https://stackoverflow.com/a/36160277">this</a> StackOverflow post for saving me many tears. 
+        </p>
+
+        <hr>
+
+        <p style="color:gray"> This website and the redesigned page was made using Bootstrap 5</p>
+
+    </main>
+    <footer>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
