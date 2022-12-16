@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Responsive Redesign</title>
+    <title>SleepySloth111 - Ghibli </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d9b99b">
             <div class="container-fluid">
                 <a style="color:white; font-size: 200% ; font-family: 'Merriweather" class="navbar-brand"
-                    href="index.html">
+                    href="../index.html">
                     sleepy·sloth·111
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,7 +28,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a id="nav-link" class="nav-link" href="../index.html">Projects</a>
+                            <a style="font-family:Merriweather" id="nav-link" class="nav-link" href="../index.html#p">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="font-family:Merriweather" id="nav-link" class="nav-link" href="../about_me/about.html">About Me</a>
                         </li>
 
                     </ul>
@@ -42,46 +45,97 @@
             <h3 class="display-4" id="main-header">
                 Project: Responsive Redesign
             </h3>
-            
-            <hr>
 
-            <h1 id="texts" class="display-5">
-                Goals
+
+            <h1 class="display-4 text-center" id="texts">
+                · Ghibli Film App ·
             </h1>
 
-            <h3 id="texts"> For my React app, I wanted to practice the following React skills</h3>
-            <ul>
+            <hr id="a">
+
+            <h2 id="texts" class="text-center">
+                · Inspiration ·
+            </h2>
+
+            <p id="texts"> Wanting to share my joy of Ghibli movies to my friends and community, I wanted to create a site for
+                us to organize our favorite Ghibli films. To start it off, I chose 12 early Ghibli films to include 
+                in my site that I felt were often fan favorites. 
+            </p>
+            
+            <hr id="a">
+
+            <h2 id="texts" class="text-center">
+                · Goals ·
+            </h2>
+
+            <p id="text"> For my list-based React interface, I wanted to practice the following React skills</p>
+            <ul id="bullet">
                 <li id="texts">Use components</li>
                 <li id="texts">Sort through a list</li>
                 <li id="texts">Filter through a list</li>
                 <li id="texts">Handle combinations of all of the above</li>
             </ul>
 
-            <hr>
+            <hr id="a">
 
-            <h1 id="texts" class="display-5">
-                Overview
-            </h1>
+            <h2 id="texts" class="text-center">
+                · Overview ·
+            </h2>
 
-            <h3 id="texts">I decided to make an app for seeing and maintaining a list of Ghibli movies. You can sort by runtime
-                and release date and filter by director and runtime. You can favorite and unfavorite films, where you will see
-                the titles in a favorited box with the average runtime of the favorited films. 
-            </h3>
+            <p id="texts">You can sort by runtime and release date and filter by director and runtime. You can favorite and 
+                unfavorite films, where you will see the titles in a favorited box with the average runtime of the favorited films. 
+            </p>
 
-            <hr>
+            <hr id="a">
+
+            <h2 id="texts" class="text-center">
+                · Usability Principles Considered ·
+            </h2>
+
+            <p id="texts">For usability principles, I had clear color contrast and bordering for components in the page for easier 
+                distinction of the hierarchy items. Additionally, I had all cards be equal size to have a more consistent design that 
+                allows easier usability and navigation.</p>
+
+            <hr id="a">
 
 
-            <a  href="https://sleepingsloth111.github.io/ghibli/" class="btn btn-dark">Check out my App Here!</a>
+            <h2 id="texts" class="text-center">
+                · Organization of Components ·
+            </h2>
 
-            <hr>
+            <p id="texts">I enforced a clear hierarchy through having 3 main sections. The title with the largest font to have a top 
+                element. Then, I have two column sections. One for the filter/sort and aggregator interactions, and another for displaying
+                 the different films. The left column had distinct separation between the aggregator and the filter/sort buttons for clearer 
+                 organization.</p>
 
-            <h1 id="texts" class="display-5">
-                Reflection
-            </h1>
+            <p id="texts">MovieItem: These components are the cards displayed to the right. Each film is a MovieItem to better organize all the films.</p>
+
+            <p id="texts">Aggregator: This component is the lower box to the left. It handles displaying the titles in the favorited cart and also handles 
+                displaying the average runtime of the favorited films.</p>
+
+
+                <hr id="a">
+
+                <h2 id="texts" class="text-center">
+                    · Implementation ·
+                </h2>
+
+                <p id="texts">Finally, after planning the components and overall visual hierarchy, I implemented the app and deployed!</p>
+
+
+            <a  id="but" href="https://sleepingsloth111.github.io/ghibli/" class="btn btn-dark">Check out my App Here!</a>
+
+
+            <hr id="a">
+
+            <h2 id="texts" class="text-center">
+                · Reflection ·
+            </h2>
 
             <p id="texts">I left finishing this project much more confident in React. I dabbled in React before in another
                 course, but I was never really confident in it. It was really satisfying to finally understand thoroughly about
-                props, components, and states! 
+                props, components, and states! Seeing my friends check out and enjoy the app was also very rewarding as they
+                discussed their favorite films together. 
             </p>
                 
 

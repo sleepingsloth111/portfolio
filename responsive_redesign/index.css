@@ -8,6 +8,10 @@ html {
     margin: 0
 }
 
+.hr {
+    color: #5C4033;
+}
+
 body {
     margin: 0;
     font-family: 'Merriweather';
@@ -31,6 +35,7 @@ body {
 #btn-btn {
     background-color:#85634D;
     color: #FFFAF1;
+    margin-left: 45%;
 }
 
 #items {

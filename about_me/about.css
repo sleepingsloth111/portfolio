@@ -16,18 +16,6 @@
     font-size: 50px;
 }
 
-.card {
-    margin: 10px;
-    width: 500px;
-    height: 480px;
-    background-color: #e4d5b7;
-}
-
-#card-img {
-    width: 494px;
-    height: 300px;
-}
-
 #a {
     width: 90rem;
     color: #5C4033;
@@ -94,14 +82,16 @@
     text-align: center;
 }
 
-
 #welcome {
-    margin: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
     font-family: 'Merriweather';
-    font-size: 50px;
+    font-size: 25px;
+    color: #5C4033;
+}
+
+#welc {
+    margin: 0px;
+    font-family: 'Merriweather';
+    font-size: 20px;
     color: #5C4033;
 }
 
@@ -109,6 +99,10 @@
     font-family: "Merriweather"
 }
 
-#cc {
-    border: 3px solid #5C4033;
+#bullet {
+    font-family: "Merriweather";
+}
+
+#link {
+    color: brown;
 }

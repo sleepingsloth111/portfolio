@@ -2,6 +2,16 @@
     font-family: 'Merriweather';
 }
 
+#text {
+    font-family: 'Merriweather';
+    font-size: 20px;
+}
+
+#bullet {
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
 #pic {
     width: 50rem;
     height: 35rem;
@@ -10,4 +20,16 @@
 #pic2 {
     width: 70rem;
     height: 40rem;
+}
+
+#a {
+    color: #5C4033;
+}
+
+#but {
+    width: 20rem;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding: 8px;
+    margin-bottom: 8px;
 }
